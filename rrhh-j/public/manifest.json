@@ -1,0 +1,47 @@
+{
+  "name": "Jesús Responde RRHH",
+  "short_name": "JR RRHH",
+  "description": "Sistema de Recursos Humanos — Fundación Jesús Responde",
+  "start_url": "/rrhh-j/public/dashboard.php",
+  "scope": "/rrhh-j/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b1f3a",
+  "theme_color": "#0b1f3a",
+  "lang": "es",
+  "id": "jr-rrhh",
+  "icons": [
+    {
+      "src": "/rrhh-j/public/assets/img/jr-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/rrhh-j/public/assets/img/jr-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Marcar asistencia",
+      "short_name": "Marcar",
+      "url": "/rrhh-j/public/asistencia/marcar.php",
+      "icons": [{ "src": "/rrhh-j/public/assets/img/jr-icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Mi asistencia",
+      "short_name": "Mi asistencia",
+      "url": "/rrhh-j/public/asistencia/mi.php",
+      "icons": [{ "src": "/rrhh-j/public/assets/img/jr-icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Ausencias",
+      "short_name": "Ausencias",
+      "url": "/rrhh-j/public/ausencias/index.php",
+      "icons": [{ "src": "/rrhh-j/public/assets/img/jr-icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

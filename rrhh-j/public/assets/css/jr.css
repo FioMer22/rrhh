@@ -1,0 +1,113 @@
+/* public/assets/css/jr.css  — estilo JR institucional (azules) */
+:root{
+  /* base */
+  --bg:#f4f6f8;
+  --card:#ffffff;
+  --text:#0b1220;
+  --muted:rgba(0,0,0,.65);
+  --border:#d7dde3;
+  --shadow:0 10px 30px rgba(0,0,0,.06);
+  --radius:14px;
+
+  /* JR (azules institucionales) */
+  --jr-navy:#0b1f3a;     /* azul noche */
+  --jr-blue:#114c97;     /* azul principal */
+  --jr-blue2:#0e3c79;    /* hover */
+  --jr-accent:#1b6fe0;   /* acento */
+  --jr-white:#ffffff;
+
+  /* botones */
+  --btn:var(--jr-blue);
+  --btnHover:var(--jr-blue2);
+  --btnText:var(--jr-white);
+}
+
+*{box-sizing:border-box}
+body{font-family:system-ui;margin:0;background:var(--bg);color:var(--text)}
+.wrap{max-width:1000px;margin:18px auto;padding:0 14px}
+
+.card{
+  background:var(--card);
+  border-radius:var(--radius);
+  padding:14px;
+  box-shadow:var(--shadow);
+  margin-bottom:14px;
+}
+
+h1,h2,h3{margin:0 0 10px 0}
+.meta{opacity:.75;font-size:13px;margin-top:8px}
+
+a{color:var(--jr-blue);text-decoration:none}
+a:hover{text-decoration:underline}
+
+.alert{padding:10px;border-radius:10px;margin-bottom:12px}
+.alert.err{background:#ffecec;color:#9b1c1c;border:1px solid #f6caca}
+.alert.ok{background:#eaffea;color:#0c5a0c;border:1px solid #c9f1c9}
+
+.btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+
+/* botones institucionales */
+button, .btn{
+  display:inline-block;
+  padding:10px 12px;
+  border-radius:10px;
+  border:0;
+  background:var(--btn);
+  color:var(--btnText);
+  cursor:pointer;
+  font-size:14px;
+  text-decoration:none;
+}
+button:hover, .btn:hover{background:var(--btnHover)}
+button[disabled], .btn.disabled{
+  opacity:.35;
+  cursor:not-allowed;
+}
+button[disabled]:hover{background:var(--btn)}
+/* Botón secundario — fondo blanco, texto oscuro */
+button.btn-secondary, .btn.btn-secondary{
+  background:#fff;
+  color:#374151;
+  border:2px solid #e5e7eb;
+}
+button.btn-secondary:hover, .btn.btn-secondary:hover{
+  background:#f3f4f6;
+  color:#111827;
+  border-color:#9ca3af;
+}
+button.btn-secondary.active, .btn.btn-secondary.active{
+  background:#eff6ff;
+  color:#1d4ed8;
+  border-color:#3b82f6;
+}
+
+/* inputs */
+input[type=text],input[type=email],input[type=password],select,textarea{
+  width:100%;
+  padding:10px;
+  border:1px solid var(--border);
+  border-radius:10px;
+  background:#fff;
+}
+input:focus,select:focus,textarea:focus{
+  outline:2px solid rgba(27,111,224,.25);
+  border-color:rgba(27,111,224,.55);
+}
+
+/* tabla */
+table{width:100%;border-collapse:collapse}
+th,td{padding:10px;border-bottom:1px solid #eee;text-align:left;vertical-align:top}
+th{font-size:12px;opacity:.7}
+
+/* pill OK */
+.pill{
+  display:inline-block;
+  padding:2px 8px;
+  border-radius:999px;
+  background:var(--jr-navy);
+  color:#fff;
+  font-size:12px;
+}
+
+/* opcional: títulos con toque JR */
+h2,h3{color:var(--jr-navy)}

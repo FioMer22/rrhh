@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.jesusresponde.twa",
+    "sha256_cert_fingerprints": [
+      "53:52:2C:8E:18:75:36:17:37:13:5B:8E:33:8E:EB:59:38:32:EB:CF:5A:FD:13:D4:13:30:96:26:96:13:5A:B5"
+    ]
+  }
+}]

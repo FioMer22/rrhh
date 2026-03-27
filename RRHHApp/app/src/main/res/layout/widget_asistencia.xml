@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#0b1f3a"
+    android:padding="8dp">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/widget_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RRHH — Asistencia"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:alpha="0.7"
+        android:gravity="center"
+        android:layout_marginBottom="4dp"/>
+
+
+    <!-- Botones -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/widget_btn_entrada"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:text="Entrada"
+            android:textSize="11sp"
+            android:textColor="#ffffff"
+            android:backgroundTint="#059669"
+            android:layout_marginEnd="4dp"/>
+
+        <Button
+            android:id="@+id/widget_btn_salida"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:text="Salida"
+            android:textSize="11sp"
+            android:textColor="#ffffff"
+            android:backgroundTint="#dc2626"/>
+
+    </LinearLayout>
+
+    <!-- Estado -->
+    <TextView
+        android:id="@+id/widget_estado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#6ee7b7"
+        android:textSize="10sp"
+        android:gravity="center"
+        android:layout_marginTop="4dp"/>
+
+</LinearLayout>

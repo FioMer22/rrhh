@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "268499220048",
+    "project_id": "f5782917",
+    "storage_bucket": "f5782917.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268499220048:android:e4205ec5a9e52c052f8355",
+        "android_client_info": {
+          "package_name": "com.rrhh.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIyF2vjiDcn-8fsncz6DFruYeLOY1mbSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
