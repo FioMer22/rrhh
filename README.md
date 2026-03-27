@@ -48,7 +48,7 @@ La aplicación permite:
 
 ---
 
-## 🛠️ Propósito actual
+##  Propósito actual
 
 * Corregir errores para despliegue en producción
 * Resolver conflictos de integración de la app híbrida
